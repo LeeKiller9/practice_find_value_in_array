@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice Find Value In Array</title>
+</head>
+<body>
+<script>
+    let array = [-3, 5, 1, 3, 2, 5, 10];
+    let value = +(prompt("Enter a number: "));
+    let index = '';
+    for (let i = 0; i < array.length; i++) {
+        if (value === array[i]) {
+            index = index + i + "  ";
+        }
+    }
+    document.write("" + array + "<br>");
+    document.write("Position Of Value In Array: " + index)
+</script>
+</body>
+</html>
